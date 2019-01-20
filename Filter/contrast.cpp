@@ -1,7 +1,6 @@
 #include "contrast.h"
 
-void Contrast::apply(cv::Mat frame, double contrast) {
-
+int* Contrast::lut(double contrast) {
     auto LUT = new int[256];
     for (int i = 0; i < 256; i++)
     {
@@ -18,6 +17,10 @@ void Contrast::apply(cv::Mat frame, double contrast) {
             LUT[i] = (int)(contrast * (i - 127) + 127);
         }
     }
+    return LUT;
+}
+
+void Contrast::apply(cv::Mat frame, int* LUT) {
 
     for (int i = 0; i < frame.rows; ++i) {
         for (int j = 0; j < frame.cols; ++j) {
