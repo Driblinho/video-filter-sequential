@@ -1,7 +1,4 @@
-//
-// Created by ireq on 13.01.19.
-//
-
+#include <iostream>
 #include "filter.h"
 
 void Filter::apply(cv::Mat frame) {
@@ -24,11 +21,12 @@ void Filter::apply(cv::Mat frame) {
                         1,2,4,2,1,
                         1,1,2,1,1
                 };
+                filterMaskSize = 5;
             }
 
 
-            auto filterSize = static_cast<int>(sqrt(sizeof(filterMask)));
-            int margin = ((filterSize-1)/2);
+
+            int margin = ((filterMaskSize-1)/2);
             int fidx=0;
             for (int k = i - margin; k <= i + margin; ++k) {
                 for (int l = j-margin; l <= j + margin; ++l,++fidx) {
@@ -44,9 +42,9 @@ void Filter::apply(cv::Mat frame) {
                 }
             }
 
-            sumR/=filterSize*filterSize;
-            sumG/=filterSize*filterSize;
-            sumB/=filterSize*filterSize;
+            sumR/=filterMaskSize*filterMaskSize;
+            sumG/=filterMaskSize*filterMaskSize;
+            sumB/=filterMaskSize*filterMaskSize;
 
             centerPxl[2] = static_cast<unsigned char>((sumR > 255) ? 255 : sumR);
             centerPxl[1] = static_cast<unsigned char>((sumG > 255) ? 255 : sumG);
@@ -56,6 +54,7 @@ void Filter::apply(cv::Mat frame) {
 
 }
 
-void Filter::setMask(int *mask) {
+void Filter::setMask(int *mask, int filterMaskSize) {
     this->filterMask = mask;
+    this->filterMaskSize = filterMaskSize;
 }

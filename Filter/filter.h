@@ -10,9 +10,10 @@
 
 class Filter {
     int* filterMask;
+    int filterMaskSize;
 public:
     void apply(cv::Mat frame);
-    void setMask(int* mask);
+    void setMask(int* mask, int size);
 };
 
 
