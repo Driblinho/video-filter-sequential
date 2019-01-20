@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/video_filter_sequential.dir/main.cpp.o  -o video_filter_sequential 

@@ -1,5 +1,5 @@
-#ifndef _CANNY_
-#define _CANNY_
+#ifndef PROJEKT_EDGE_DETECTION_H
+#define PROJEKT_EDGE_DETECTION_H
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include <vector>

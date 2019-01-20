@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential"
+CMAKE_SOURCE_DIR = "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/video-filter-sequential.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/video-filter-sequential.dir/flags.make
 
 CMakeFiles/video-filter-sequential.dir/main.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video-filter-sequential.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/main.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video-filter-sequential.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/main.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/main.cpp"
 
 CMakeFiles/video-filter-sequential.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/main.cpp" > CMakeFiles/video-filter-sequential.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/main.cpp" > CMakeFiles/video-filter-sequential.dir/main.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/main.cpp" -o CMakeFiles/video-filter-sequential.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/main.cpp" -o CMakeFiles/video-filter-sequential.dir/main.cpp.s
 
 CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.o: ../Filter/black_white.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/black_white.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/black_white.cpp"
 
 CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/black_white.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/black_white.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/black_white.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/black_white.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/black_white.cpp.s
 
 CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.o: ../Filter/sepia.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/sepia.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/sepia.cpp"
 
 CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/sepia.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/sepia.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/sepia.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/sepia.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/sepia.cpp.s
 
 CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.o: ../Filter/blur.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/blur.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/blur.cpp"
 
 CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/blur.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/blur.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/blur.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/blur.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/blur.cpp.s
 
 CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.o: ../Filter/contrast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/contrast.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/contrast.cpp"
 
 CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/contrast.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/contrast.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/contrast.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/contrast.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/contrast.cpp.s
 
 CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.o: ../Filter/edge_detection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/edge_detection.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/edge_detection.cpp"
 
 CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/edge_detection.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/edge_detection.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/edge_detection.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/edge_detection.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/edge_detection.cpp.s
 
 CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.o: CMakeFiles/video-filter-sequential.dir/flags.make
 CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.o: ../Filter/filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.o -c "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/filter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.o -c "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/filter.cpp"
 
 CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/filter.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/filter.cpp" > CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.i
 
 CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/filter.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/Filter/filter.cpp" -o CMakeFiles/video-filter-sequential.dir/Filter/filter.cpp.s
 
 # Object files for target video-filter-sequential
 video__filter__sequential_OBJECTS = \
@@ -218,7 +218,7 @@ video-filter-sequential: /usr/lib/libopencv_photo.so.4.0.1
 video-filter-sequential: /usr/lib/libopencv_imgproc.so.4.0.1
 video-filter-sequential: /usr/lib/libopencv_core.so.4.0.1
 video-filter-sequential: CMakeFiles/video-filter-sequential.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable video-filter-sequential"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable video-filter-sequential"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/video-filter-sequential.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -231,6 +231,6 @@ CMakeFiles/video-filter-sequential.dir/clean:
 .PHONY : CMakeFiles/video-filter-sequential.dir/clean
 
 CMakeFiles/video-filter-sequential.dir/depend:
-	cd "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential" "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential" "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug" "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug" "/home/ireq/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles/video-filter-sequential.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential" "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential" "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug" "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug" "/mnt/hdd/Studia PK/SEM_2/Programowanie Równoległe i Rozproszone/Projekty/video-filter-sequential/cmake-build-debug/CMakeFiles/video-filter-sequential.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/video-filter-sequential.dir/depend
 
