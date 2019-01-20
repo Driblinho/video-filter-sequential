@@ -3,5 +3,12 @@
 
 void Blur::apply(cv::Mat frame) {
     auto obj =new Filter();
-    obj->apply(frame);
+    obj->setMask(new int[25]{
+            1,1,1,1,1,
+            1,1,1,1,1,
+            1,1,1,1,1,
+            1,1,1,1,1,
+            1,1,1,1,1
+    }, 5);
+    obj->apply(std::move(frame));
 }

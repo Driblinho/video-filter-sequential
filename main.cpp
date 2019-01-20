@@ -21,10 +21,13 @@ int main(int argc, char *argv[])
     auto filter_contrast = new Contrast();
     auto filter_edge_detection = new EdgeDetection();
 
-    for(;;) {
+    for(int i=0;;i++) {
+
+
 
         Mat frame;
         cap >> frame;
+        //if(i<1500) continue;
 
         if (strcmp(argv[2], "sepia") == 0) {
             filter_sepia->apply(frame);
@@ -35,9 +38,8 @@ int main(int argc, char *argv[])
         } else if (strcmp(argv[2], "kontrast") == 0) {
             filter_contrast->apply(frame, 1.0);
         } else if (strcmp(argv[2], "wykrywanie-krawedzi") == 0) {
-            filter_edge_detection->apply(frame);
+            frame = filter_edge_detection->getEdge(frame);
         }
-
 
         imshow("Podgląd", frame);
         if(waitKey(30) >= 0) break;

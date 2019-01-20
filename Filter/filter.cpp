@@ -29,7 +29,7 @@ void Filter::apply(cv::Mat frame) {
             int margin = ((filterMaskSize-1)/2);
             int fidx=0;
             for (int k = i - margin; k <= i + margin; ++k) {
-                for (int l = j-margin; l <= j + margin; ++l,++fidx) {
+                for (int l = j-margin; l <= j + margin; ++l,fidx++) {
 
                     unsigned char* currentPxl = frame.ptr(k, l); // Y first, X after
 
@@ -45,6 +45,10 @@ void Filter::apply(cv::Mat frame) {
             sumR/=filterMaskSize*filterMaskSize;
             sumG/=filterMaskSize*filterMaskSize;
             sumB/=filterMaskSize*filterMaskSize;
+
+//            if(sumR< 0) sumR = 0;
+//            if(sumG< 0) sumG = 0;
+//            if(sumB< 0) sumB = 0;
 
             centerPxl[2] = static_cast<unsigned char>((sumR > 255) ? 255 : sumR);
             centerPxl[1] = static_cast<unsigned char>((sumG > 255) ? 255 : sumG);
