@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
         lut = filter_contrast->lut(1.0);
 
 
-    for(int i=0;;i++) {
+    for(;;) {
 
 
 
