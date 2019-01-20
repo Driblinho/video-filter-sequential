@@ -27,7 +27,8 @@ int main(int argc, char *argv[])
 
         Mat frame;
         cap >> frame;
-        //if(i<1500) continue;
+        if (frame.empty())
+            break;
 
         if (strcmp(argv[2], "sepia") == 0) {
             filter_sepia->apply(frame);
@@ -41,8 +42,10 @@ int main(int argc, char *argv[])
             frame = filter_edge_detection->getEdge(frame);
         }
 
-        imshow("Podgląd", frame);
-        if(waitKey(30) >= 0) break;
+        if (argc==4 && strcmp(argv[3], "wyswietlaj") == 0) {
+            imshow("Podglad", frame);
+            if(waitKey(30) >= 0) break;
+        }
 
     }
     return 0;
